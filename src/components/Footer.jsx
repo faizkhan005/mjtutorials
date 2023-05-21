@@ -1,6 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Footer = () => {
+
+    const [mail,setMail]= useState({
+        email : ""
+    });
+    const handleMail = (event) =>{
+        let name = event.target.name;
+        let value = event.target.value;
+
+        setMail({...mail,[name]:value});
+
+    } ;
+    const handleSubmit = async (event) =>{
+        event.preventDefault();
+        const{email} = mail;
+        try {
+            const res = await fetch('/newsletter',{
+                method : "POST",
+                headers : {
+                    "Content-Type" : "application/json"
+                },
+                body: JSON.stringify({
+                    email
+                })
+            })
+            if(res.status === 400 || !res){
+                window.alert("Please Try again Later");
+            }else{
+                window.alert("Subscribed");
+            }
+        } catch (error) {
+            console.log(error);
+        }
+    }
+
     return (
         <div>
             <footer className="footer text-white ">
@@ -28,13 +62,14 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div  className="col-4 offset-1">
-                                <form >
+                                <form onSubmit={handleSubmit} method="POST">
                                     <h5>Subscribe to our newsletter</h5>
                                     <p>Monthly digest of whats new and exciting from us.</p>
                                     <div className="d-flex w-100 gap-2">
                                         <label htmlFor="newsletter1" className="visually-hidden">Email Address</label>
-                                        <input id="newsletter1" type="email" className="form-control" placeholder="Email Address"/>
-                                        <button className="btn btn-primary rounded-pill px-4" type="button">Subscribe</button>
+                                        <input id="newsletter1" type="email" className="form-control" placeholder="Email Address"
+                                        name="email" value={mail.email} onChange={handleMail}/>
+                                        <button className="btn btn-primary rounded-pill px-4" type="submit">Subscribe</button>
                                     </div>
                                 </form>
                             </div>

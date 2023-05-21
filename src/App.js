@@ -9,8 +9,13 @@ import Footer from './components/Footer';
 import {Route, Routes} from 'react-router-dom';
 import Login from './components/Login';
 import Register from './components/Register';
+import Logout from './components/Logout';
+
 
 function App() {
+
+
+
   return (
     <>
       <NavBar/>
@@ -20,8 +25,10 @@ function App() {
         <Route  path="/classes" element={<Classes/>}/>
         <Route  path="/contact" element={<Contact/>}/>
         <Route  path="/login" element={<Login/>}/>
-        <Route  path="/register" element={<Register/>}/>
+        <Route  path="/register" element={<Register/>} />
+       <Route  path="/logout" element={<Logout/>} />        
       </Routes>
+
       <Footer/>
     </>
   );

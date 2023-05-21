@@ -17,8 +17,8 @@ const Classes = () => {
                             <div class="card p-3 " >
                                
                                 <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fs-4 fw-bolder">IIT/JEE Coaching</h5>
-                                        <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title mb-3 fs-4 fw-bolder">Physics for class +1/11th</h5>
+                                        <p class="card-text lead">MJ tutorials has long been distinguished for the best preparatory courses and results for physics examinations.</p>
                                 </div>
                             </div>
                         </div>
@@ -26,8 +26,8 @@ const Classes = () => {
                             <div class="card p-3 " >
                                
                                 <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fs-4 fw-bolder">IIT/JEE Coaching</h5>
-                                        <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title mb-3 fs-4 fw-bolder">Maths for class +1/11th</h5>
+                                        <p class="card-text lead">Maths courses designed by MJ tutorials are unique and are as per the latest examination pattern.</p>
                                 </div>
                             </div>
                         </div>
@@ -35,8 +35,8 @@ const Classes = () => {
                             <div class="card p-3 " >
                                
                                 <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fs-4 fw-bolder">IIT/JEE Coaching</h5>
-                                        <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title mb-3 fs-4 fw-bolder">Chemistry for class +1/11th </h5>
+                                        <p class="card-text lead">MJ tutorials is equipped with top most faculties for preparation of chemistry examination.</p>
                                 </div>
                             </div>
                         </div>
@@ -46,8 +46,8 @@ const Classes = () => {
                             <div class="card p-3 " >
                                
                                 <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fs-4 fw-bolder">IIT/JEE Coaching</h5>
-                                        <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title mb-3 fs-4 fw-bolder">Physics for class +2/12th</h5>
+                                        <p class="card-text lead">MJ tutorials has long been distinguished for the best preparatory courses and results for physics examinations.</p>
                                 </div>
                             </div>
                         </div>
@@ -55,8 +55,8 @@ const Classes = () => {
                             <div class="card p-3 " >
                                
                                 <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fs-4 fw-bolder">IIT/JEE Coaching</h5>
-                                        <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title mb-3 fs-4 fw-bolder">Maths for class +2/12th</h5>
+                                        <p class="card-text lead">Maths courses designed by MJ tutorials are unique and are as per the latest examination pattern.</p>
                                 </div>
                             </div>
                         </div>
@@ -64,8 +64,8 @@ const Classes = () => {
                             <div class="card p-3 " >
                                
                                 <div class="card-body text-center">
-                                        <h5 class="card-title mb-3 fs-4 fw-bolder">IIT/JEE Coaching</h5>
-                                        <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title mb-3 fs-4 fw-bolder">Chemistry for class +2/12th</h5>
+                                        <p class="card-text lead">MJ tutorials is equipped with top most faculties for preparation of chemistry examination.</p>
                                 </div>
                             </div>
                         </div>
